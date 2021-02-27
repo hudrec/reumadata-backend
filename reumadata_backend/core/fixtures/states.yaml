@@ -1,0 +1,101 @@
+
+- model: core.state
+  pk: 1
+  fields:
+    name: "Amazonas"
+- model: core.state
+  pk: 2
+  fields:
+    name: "Áncash"
+- model: core.state
+  pk: 3
+  fields:
+    name: "Apurímac"
+- model: core.state
+  pk: 4
+  fields:
+    name: "Arequipa"
+- model: core.state
+  pk: 5
+  fields:
+    name: "Ayacucho"
+- model: core.state
+  pk: 6
+  fields:
+    name: "Cajamarca"
+- model: core.state
+  pk: 7
+  fields:
+    name: "Callao"
+- model: core.state
+  pk: 8
+  fields:
+    name: "Cusco"
+- model: core.state
+  pk: 9
+  fields:
+    name: "Huancavelica"
+- model: core.state
+  pk: 10
+  fields:
+    name: "Huánuco"
+- model: core.state
+  pk: 11
+  fields:
+    name: "Ica"
+- model: core.state
+  pk: 12
+  fields:
+    name: "Junín"
+- model: core.state
+  pk: 13
+  fields:
+    name: "La Libertad"
+- model: core.state
+  pk: 14
+  fields:
+    name: "Lambayeque"
+- model: core.state
+  pk: 15
+  fields:
+    name: "Lima"
+- model: core.state
+  pk: 16
+  fields:
+    name: "Loreto"
+- model: core.state
+  pk: 17
+  fields:
+    name: "Madre de Dios"
+- model: core.state
+  pk: 18
+  fields:
+    name: "Moquegua"
+- model: core.state
+  pk: 19
+  fields:
+    name: "Pasco"
+- model: core.state
+  pk: 20
+  fields:
+    name: "Piura"
+- model: core.state
+  pk: 21
+  fields:
+    name: "Puno"
+- model: core.state
+  pk: 22
+  fields:
+    name: "San Martín"
+- model: core.state
+  pk: 23
+  fields:
+    name: "Tacna"
+- model: core.state
+  pk: 24
+  fields:
+    name: "Tumbes"
+- model: core.state
+  pk: 25
+  fields:
+    name: "Ucayali"

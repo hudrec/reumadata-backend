@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: docker
+      dockerfile: ./docker/Dockerfile
+    volumes:
+      - ./reumadata_backend/:/app/reumadata_backend
+    env_file: ./docker/local.env
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+    links:
+      - db:reumadata_db
+  db:
+    image: postgres:12.0-alpine
+    restart: always
+    ports:
+      - "5432:5432"
+    volumes:
+      - /var/lib/postgresql/data
+    environment:
+      - "POSTGRES_PASSWORD=reumadata_password"
+      - "POSTGRES_USER=reumadata_user"
+      - "POSTGRES_DB=reumadata_db"

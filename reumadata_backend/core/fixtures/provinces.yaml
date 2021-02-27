@@ -1,0 +1,981 @@
+- model: core.province
+  pk: 0101
+  fields:
+    name: "Chachapoyas"
+    state_id: 01
+- model: core.province
+  pk: 0102
+  fields:
+    name: "Bagua"
+    state_id: 01
+- model: core.province
+  pk: 0103
+  fields:
+    name: "Bongará"
+    state_id: 01
+- model: core.province
+  pk: 0104
+  fields:
+    name: "Condorcanqui"
+    state_id: 01
+- model: core.province
+  pk: 0105
+  fields:
+    name: "Luya"
+    state_id: 01
+- model: core.province
+  pk: 0106
+  fields:
+    name: "Rodríguez de Mendoza"
+    state_id: 01
+- model: core.province
+  pk: 0107
+  fields:
+    name: "Utcubamba"
+    state_id: 01
+- model: core.province
+  pk: 0201
+  fields:
+    name: "Huaraz"
+    state_id: 02
+- model: core.province
+  pk: 0202
+  fields:
+    name: "Aija"
+    state_id: 02
+- model: core.province
+  pk: 0203
+  fields:
+    name: "Antonio Raymondi"
+    state_id: 02
+- model: core.province
+  pk: 0204
+  fields:
+    name: "Asunción"
+    state_id: 02
+- model: core.province
+  pk: 0205
+  fields:
+    name: "Bolognesi"
+    state_id: 02
+- model: core.province
+  pk: 0206
+  fields:
+    name: "Carhuaz"
+    state_id: 02
+- model: core.province
+  pk: 0207
+  fields:
+    name: "Carlos Fermín Fitzcarrald"
+    state_id: 02
+- model: core.province
+  pk: 0208
+  fields:
+    name: "Casma"
+    state_id: 02
+- model: core.province
+  pk: 0209
+  fields:
+    name: "Corongo"
+    state_id: 02
+- model: core.province
+  pk: 0210
+  fields:
+    name: "Huari"
+    state_id: 02
+- model: core.province
+  pk: 0211
+  fields:
+    name: "Huarmey"
+    state_id: 02
+- model: core.province
+  pk: 0212
+  fields:
+    name: "Huaylas"
+    state_id: 02
+- model: core.province
+  pk: 0213
+  fields:
+    name: "Mariscal Luzuriaga"
+    state_id: 02
+- model: core.province
+  pk: 0214
+  fields:
+    name: "Ocros"
+    state_id: 02
+- model: core.province
+  pk: 0215
+  fields:
+    name: "Pallasca"
+    state_id: 02
+- model: core.province
+  pk: 0216
+  fields:
+    name: "Pomabamba"
+    state_id: 02
+- model: core.province
+  pk: 0217
+  fields:
+    name: "Recuay"
+    state_id: 02
+- model: core.province
+  pk: 0218
+  fields:
+    name: "Santa"
+    state_id: 02
+- model: core.province
+  pk: 0219
+  fields:
+    name: "Sihuas"
+    state_id: 02
+- model: core.province
+  pk: 0220
+  fields:
+    name: "Yungay"
+    state_id: 02
+- model: core.province
+  pk: 0301
+  fields:
+    name: "Abancay"
+    state_id: 03
+- model: core.province
+  pk: 0302
+  fields:
+    name: "Andahuaylas"
+    state_id: 03
+- model: core.province
+  pk: 0303
+  fields:
+    name: "Antabamba"
+    state_id: 03
+- model: core.province
+  pk: 0304
+  fields:
+    name: "Aymaraes"
+    state_id: 03
+- model: core.province
+  pk: 0305
+  fields:
+    name: "Cotabambas"
+    state_id: 03
+- model: core.province
+  pk: 0306
+  fields:
+    name: "Chincheros"
+    state_id: 03
+- model: core.province
+  pk: 0307
+  fields:
+    name: "Grau"
+    state_id: 03
+- model: core.province
+  pk: 0401
+  fields:
+    name: "Arequipa"
+    state_id: 04
+- model: core.province
+  pk: 0402
+  fields:
+    name: "Camaná"
+    state_id: 04
+- model: core.province
+  pk: 0403
+  fields:
+    name: "Caravelí"
+    state_id: 04
+- model: core.province
+  pk: 0404
+  fields:
+    name: "Castilla"
+    state_id: 04
+- model: core.province
+  pk: 0405
+  fields:
+    name: "Caylloma"
+    state_id: 04
+- model: core.province
+  pk: 0406
+  fields:
+    name: "Condesuyos"
+    state_id: 04
+- model: core.province
+  pk: 0407
+  fields:
+    name: "Islay"
+    state_id: 04
+- model: core.province
+  pk: 0408
+  fields:
+    name: "La Uniòn"
+    state_id: 04
+- model: core.province
+  pk: 0501
+  fields:
+    name: "Huamanga"
+    state_id: 05
+- model: core.province
+  pk: 0502
+  fields:
+    name: "Cangallo"
+    state_id: 05
+- model: core.province
+  pk: 0503
+  fields:
+    name: "Huanca Sancos"
+    state_id: 05
+- model: core.province
+  pk: 0504
+  fields:
+    name: "Huanta"
+    state_id: 05
+- model: core.province
+  pk: 0505
+  fields:
+    name: "La Mar"
+    state_id: 05
+- model: core.province
+  pk: 0506
+  fields:
+    name: "Lucanas"
+    state_id: 05
+- model: core.province
+  pk: 0507
+  fields:
+    name: "Parinacochas"
+    state_id: 05
+- model: core.province
+  pk: 0508
+  fields:
+    name: "Pàucar del Sara Sara"
+    state_id: 05
+- model: core.province
+  pk: 0509
+  fields:
+    name: "Sucre"
+    state_id: 05
+- model: core.province
+  pk: 0510
+  fields:
+    name: "Víctor Fajardo"
+    state_id: 05
+- model: core.province
+  pk: 0511
+  fields:
+    name: "Vilcas Huamán"
+    state_id: 05
+- model: core.province
+  pk: 0601
+  fields:
+    name: "Cajamarca"
+    state_id: 06
+- model: core.province
+  pk: 0602
+  fields:
+    name: "Cajabamba"
+    state_id: 06
+- model: core.province
+  pk: 0603
+  fields:
+    name: "Celendín"
+    state_id: 06
+- model: core.province
+  pk: 0604
+  fields:
+    name: "Chota"
+    state_id: 06
+- model: core.province
+  pk: 0605
+  fields:
+    name: "Contumazá"
+    state_id: 06
+- model: core.province
+  pk: 0606
+  fields:
+    name: "Cutervo"
+    state_id: 06
+- model: core.province
+  pk: 0607
+  fields:
+    name: "Hualgayoc"
+    state_id: 06
+- model: core.province
+  pk: 0608
+  fields:
+    name: "Jaén"
+    state_id: 06
+- model: core.province
+  pk: 0609
+  fields:
+    name: "San Ignacio"
+    state_id: 06
+- model: core.province
+  pk: 0610
+  fields:
+    name: "San Marcos"
+    state_id: 06
+- model: core.province
+  pk: 0611
+  fields:
+    name: "San Miguel"
+    state_id: 06
+- model: core.province
+  pk: 0612
+  fields:
+    name: "San Pablo"
+    state_id: 06
+- model: core.province
+  pk: 0613
+  fields:
+    name: "Santa Cruz"
+    state_id: 06
+- model: core.province
+  pk: 0701
+  fields:
+    name: "Prov. Const. del Callao"
+    state_id: 07
+- model: core.province
+  pk: 0801
+  fields:
+    name: "Cusco"
+    state_id: 08
+- model: core.province
+  pk: 0802
+  fields:
+    name: "Acomayo"
+    state_id: 08
+- model: core.province
+  pk: 0803
+  fields:
+    name: "Anta"
+    state_id: 08
+- model: core.province
+  pk: 0804
+  fields:
+    name: "Calca"
+    state_id: 08
+- model: core.province
+  pk: 0805
+  fields:
+    name: "Canas"
+    state_id: 08
+- model: core.province
+  pk: 0806
+  fields:
+    name: "Canchis"
+    state_id: 08
+- model: core.province
+  pk: 0807
+  fields:
+    name: "Chumbivilcas"
+    state_id: 08
+- model: core.province
+  pk: 0808
+  fields:
+    name: "Espinar"
+    state_id: 08
+- model: core.province
+  pk: 0809
+  fields:
+    name: "La Convención"
+    state_id: 08
+- model: core.province
+  pk: 0810
+  fields:
+    name: "Paruro"
+    state_id: 08
+- model: core.province
+  pk: 0811
+  fields:
+    name: "Paucartambo"
+    state_id: 08
+- model: core.province
+  pk: 0812
+  fields:
+    name: "Quispicanchi"
+    state_id: 08
+- model: core.province
+  pk: 0813
+  fields:
+    name: "Urubamba"
+    state_id: 08
+- model: core.province
+  pk: 0901
+  fields:
+    name: "Huancavelica"
+    state_id: 09
+- model: core.province
+  pk: 0902
+  fields:
+    name: "Acobamba"
+    state_id: 09
+- model: core.province
+  pk: 0903
+  fields:
+    name: "Angaraes"
+    state_id: 09
+- model: core.province
+  pk: 0904
+  fields:
+    name: "Castrovirreyna"
+    state_id: 09
+- model: core.province
+  pk: 0905
+  fields:
+    name: "Churcampa"
+    state_id: 09
+- model: core.province
+  pk: 0906
+  fields:
+    name: "Huaytará"
+    state_id: 09
+- model: core.province
+  pk: 0907
+  fields:
+    name: "Tayacaja"
+    state_id: 09
+- model: core.province
+  pk: 1001
+  fields:
+    name: "Huánuco"
+    state_id: 10
+- model: core.province
+  pk: 1002
+  fields:
+    name: "Ambo"
+    state_id: 10
+- model: core.province
+  pk: 1003
+  fields:
+    name: "Dos de Mayo"
+    state_id: 10
+- model: core.province
+  pk: 1004
+  fields:
+    name: "Huacaybamba"
+    state_id: 10
+- model: core.province
+  pk: 1005
+  fields:
+    name: "Huamalíes"
+    state_id: 10
+- model: core.province
+  pk: 1006
+  fields:
+    name: "Leoncio Prado"
+    state_id: 10
+- model: core.province
+  pk: 1007
+  fields:
+    name: "Marañón"
+    state_id: 10
+- model: core.province
+  pk: 1008
+  fields:
+    name: "Pachitea"
+    state_id: 10
+- model: core.province
+  pk: 1009
+  fields:
+    name: "Puerto Inca"
+    state_id: 10
+- model: core.province
+  pk: 1010
+  fields:
+    name: "Lauricocha "
+    state_id: 10
+- model: core.province
+  pk: 1011
+  fields:
+    name: "Yarowilca "
+    state_id: 10
+- model: core.province
+  pk: 1101
+  fields:
+    name: "Ica "
+    state_id: 11
+- model: core.province
+  pk: 1102
+  fields:
+    name: "Chincha "
+    state_id: 11
+- model: core.province
+  pk: 1103
+  fields:
+    name: "Nasca "
+    state_id: 11
+- model: core.province
+  pk: 1104
+  fields:
+    name: "Palpa "
+    state_id: 11
+- model: core.province
+  pk: 1105
+  fields:
+    name: "Pisco "
+    state_id: 11
+- model: core.province
+  pk: 1201
+  fields:
+    name: "Huancayo "
+    state_id: 12
+- model: core.province
+  pk: 1202
+  fields:
+    name: "Concepción "
+    state_id: 12
+- model: core.province
+  pk: 1203
+  fields:
+    name: "Chanchamayo "
+    state_id: 12
+- model: core.province
+  pk: 1204
+  fields:
+    name: "Jauja "
+    state_id: 12
+- model: core.province
+  pk: 1205
+  fields:
+    name: "Junín "
+    state_id: 12
+- model: core.province
+  pk: 1206
+  fields:
+    name: "Satipo "
+    state_id: 12
+- model: core.province
+  pk: 1207
+  fields:
+    name: "Tarma "
+    state_id: 12
+- model: core.province
+  pk: 1208
+  fields:
+    name: "Yauli "
+    state_id: 12
+- model: core.province
+  pk: 1209
+  fields:
+    name: "Chupaca "
+    state_id: 12
+- model: core.province
+  pk: 1301
+  fields:
+    name: "Trujillo "
+    state_id: 13
+- model: core.province
+  pk: 1302
+  fields:
+    name: "Ascope "
+    state_id: 13
+- model: core.province
+  pk: 1303
+  fields:
+    name: "Bolívar "
+    state_id: 13
+- model: core.province
+  pk: 1304
+  fields:
+    name: "Chepén "
+    state_id: 13
+- model: core.province
+  pk: 1305
+  fields:
+    name: "Julcán "
+    state_id: 13
+- model: core.province
+  pk: 1306
+  fields:
+    name: "Otuzco "
+    state_id: 13
+- model: core.province
+  pk: 1307
+  fields:
+    name: "Pacasmayo "
+    state_id: 13
+- model: core.province
+  pk: 1308
+  fields:
+    name: "Pataz "
+    state_id: 13
+- model: core.province
+  pk: 1309
+  fields:
+    name: "Sánchez Carrión "
+    state_id: 13
+- model: core.province
+  pk: 1310
+  fields:
+    name: "Santiago de Chuco "
+    state_id: 13
+- model: core.province
+  pk: 1311
+  fields:
+    name: "Gran Chimú "
+    state_id: 13
+- model: core.province
+  pk: 1312
+  fields:
+    name: "Virú "
+    state_id: 13
+- model: core.province
+  pk: 1401
+  fields:
+    name: "Chiclayo "
+    state_id: 14
+- model: core.province
+  pk: 1402
+  fields:
+    name: "Ferreñafe "
+    state_id: 14
+- model: core.province
+  pk: 1403
+  fields:
+    name: "Lambayeque "
+    state_id: 14
+- model: core.province
+  pk: 1501
+  fields:
+    name: "Lima "
+    state_id: 15
+- model: core.province
+  pk: 1502
+  fields:
+    name: "Barranca "
+    state_id: 15
+- model: core.province
+  pk: 1503
+  fields:
+    name: "Cajatambo "
+    state_id: 15
+- model: core.province
+  pk: 1504
+  fields:
+    name: "Canta "
+    state_id: 15
+- model: core.province
+  pk: 1505
+  fields:
+    name: "Cañete "
+    state_id: 15
+- model: core.province
+  pk: 1506
+  fields:
+    name: "Huaral "
+    state_id: 15
+- model: core.province
+  pk: 1507
+  fields:
+    name: "Huarochirí "
+    state_id: 15
+- model: core.province
+  pk: 1508
+  fields:
+    name: "Huaura "
+    state_id: 15
+- model: core.province
+  pk: 1509
+  fields:
+    name: "Oyón "
+    state_id: 15
+- model: core.province
+  pk: 1510
+  fields:
+    name: "Yauyos "
+    state_id: 15
+- model: core.province
+  pk: 1601
+  fields:
+    name: "Maynas "
+    state_id: 16
+- model: core.province
+  pk: 1602
+  fields:
+    name: "Alto Amazonas "
+    state_id: 16
+- model: core.province
+  pk: 1603
+  fields:
+    name: "Loreto "
+    state_id: 16
+- model: core.province
+  pk: 1604
+  fields:
+    name: "Mariscal Ramón Castilla "
+    state_id: 16
+- model: core.province
+  pk: 1605
+  fields:
+    name: "Requena "
+    state_id: 16
+- model: core.province
+  pk: 1606
+  fields:
+    name: "Ucayali "
+    state_id: 16
+- model: core.province
+  pk: 1607
+  fields:
+    name: "Datem del Marañón "
+    state_id: 16
+- model: core.province
+  pk: 1608
+  fields:
+    name: "Putumayo"
+    state_id: 16
+- model: core.province
+  pk: 1701
+  fields:
+    name: "Tambopata "
+    state_id: 17
+- model: core.province
+  pk: 1702
+  fields:
+    name: "Manu "
+    state_id: 17
+- model: core.province
+  pk: 1703
+  fields:
+    name: "Tahuamanu "
+    state_id: 17
+- model: core.province
+  pk: 1801
+  fields:
+    name: "Mariscal Nieto "
+    state_id: 18
+- model: core.province
+  pk: 1802
+  fields:
+    name: "General Sánchez Cerro "
+    state_id: 18
+- model: core.province
+  pk: 1803
+  fields:
+    name: "Ilo "
+    state_id: 18
+- model: core.province
+  pk: 1901
+  fields:
+    name: "Pasco "
+    state_id: 19
+- model: core.province
+  pk: 1902
+  fields:
+    name: "Daniel Alcides Carrión "
+    state_id: 19
+- model: core.province
+  pk: 1903
+  fields:
+    name: "Oxapampa "
+    state_id: 19
+- model: core.province
+  pk: 2001
+  fields:
+    name: "Piura "
+    state_id: 20
+- model: core.province
+  pk: 2002
+  fields:
+    name: "Ayabaca "
+    state_id: 20
+- model: core.province
+  pk: 2003
+  fields:
+    name: "Huancabamba "
+    state_id: 20
+- model: core.province
+  pk: 2004
+  fields:
+    name: "Morropón "
+    state_id: 20
+- model: core.province
+  pk: 2005
+  fields:
+    name: "Paita "
+    state_id: 20
+- model: core.province
+  pk: 2006
+  fields:
+    name: "Sullana "
+    state_id: 20
+- model: core.province
+  pk: 2007
+  fields:
+    name: "Talara "
+    state_id: 20
+- model: core.province
+  pk: 2008
+  fields:
+    name: "Sechura "
+    state_id: 20
+- model: core.province
+  pk: 2101
+  fields:
+    name: "Puno "
+    state_id: 21
+- model: core.province
+  pk: 2102
+  fields:
+    name: "Azángaro "
+    state_id: 21
+- model: core.province
+  pk: 2103
+  fields:
+    name: "Carabaya "
+    state_id: 21
+- model: core.province
+  pk: 2104
+  fields:
+    name: "Chucuito "
+    state_id: 21
+- model: core.province
+  pk: 2105
+  fields:
+    name: "El Collao "
+    state_id: 21
+- model: core.province
+  pk: 2106
+  fields:
+    name: "Huancané "
+    state_id: 21
+- model: core.province
+  pk: 2107
+  fields:
+    name: "Lampa "
+    state_id: 21
+- model: core.province
+  pk: 2108
+  fields:
+    name: "Melgar "
+    state_id: 21
+- model: core.province
+  pk: 2109
+  fields:
+    name: "Moho "
+    state_id: 21
+- model: core.province
+  pk: 2110
+  fields:
+    name: "San Antonio de Putina "
+    state_id: 21
+- model: core.province
+  pk: 2111
+  fields:
+    name: "San Román "
+    state_id: 21
+- model: core.province
+  pk: 2112
+  fields:
+    name: "Sandia "
+    state_id: 21
+- model: core.province
+  pk: 2113
+  fields:
+    name: "Yunguyo "
+    state_id: 21
+- model: core.province
+  pk: 2201
+  fields:
+    name: "Moyobamba "
+    state_id: 22
+- model: core.province
+  pk: 2202
+  fields:
+    name: "Bellavista "
+    state_id: 22
+- model: core.province
+  pk: 2203
+  fields:
+    name: "El Dorado "
+    state_id: 22
+- model: core.province
+  pk: 2204
+  fields:
+    name: "Huallaga "
+    state_id: 22
+- model: core.province
+  pk: 2205
+  fields:
+    name: "Lamas "
+    state_id: 22
+- model: core.province
+  pk: 2206
+  fields:
+    name: "Mariscal Cáceres "
+    state_id: 22
+- model: core.province
+  pk: 2207
+  fields:
+    name: "Picota "
+    state_id: 22
+- model: core.province
+  pk: 2208
+  fields:
+    name: "Rioja "
+    state_id: 22
+- model: core.province
+  pk: 2209
+  fields:
+    name: "San Martín "
+    state_id: 22
+- model: core.province
+  pk: 2210
+  fields:
+    name: "Tocache "
+    state_id: 22
+- model: core.province
+  pk: 2301
+  fields:
+    name: "Tacna "
+    state_id: 23
+- model: core.province
+  pk: 2302
+  fields:
+    name: "Candarave "
+    state_id: 23
+- model: core.province
+  pk: 2303
+  fields:
+    name: "Jorge Basadre "
+    state_id: 23
+- model: core.province
+  pk: 2304
+  fields:
+    name: "Tarata "
+    state_id: 23
+- model: core.province
+  pk: 2401
+  fields:
+    name: "Tumbes "
+    state_id: 24
+- model: core.province
+  pk: 2402
+  fields:
+    name: "Contralmirante Villar "
+    state_id: 24
+- model: core.province
+  pk: 2403
+  fields:
+    name: "Zarumilla "
+    state_id: 24
+- model: core.province
+  pk: 2501
+  fields:
+    name: "Coronel Portillo "
+    state_id: 25
+- model: core.province
+  pk: 2502
+  fields:
+    name: "Atalaya "
+    state_id: 25
+- model: core.province
+  pk: 2503
+  fields:
+    name: "Padre Abad "
+    state_id: 25
+- model: core.province
+  pk: 2504
+  fields:
+    name: "Purús"
+    state_id: 25
+
