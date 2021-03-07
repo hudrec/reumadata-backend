@@ -9,12 +9,10 @@ class Filiation(models.Model):
     first_name = models.CharField(
         verbose_name=_("Nombres"),
         max_length=255,
-        blank=True,
     )
     last_name = models.CharField(
         verbose_name=_("Apellidos"),
         max_length=255,
-        blank=True,
     )
     gender = models.CharField(
         verbose_name=_("Género"),
@@ -29,7 +27,6 @@ class Filiation(models.Model):
     dni = models.CharField(
         _("DNI"),
         max_length=12,
-        blank=True,
     )
     date_birth = models.DateTimeField(
         verbose_name=_("Fecha de Nacimiento"),
@@ -37,21 +34,20 @@ class Filiation(models.Model):
     place_birth = models.ForeignKey(
         Ubigeo,
         null=True,
-        blank=True,
+        related_name='pb_filiations',
         verbose_name=_("Lugar de Nacimiento"),
         on_delete=models.SET_NULL,
     )
     place_origin = models.ForeignKey(
         Ubigeo,
         null=True,
-        blank=True,
+        related_name='po_filiations',
         verbose_name=_("Lugar de Prodencia"),
         on_delete=models.SET_NULL,
     )
     ethnicity = models.ForeignKey(
         Ethnicity,
         null=True,
-        blank=True,
         verbose_name=_("Etnia"),
         on_delete=models.SET_NULL,
     )
@@ -61,7 +57,7 @@ class Filiation(models.Model):
         choices=constants.DEGREE_CHOICES,
     )
     marital_status = models.CharField(
-        verbose_name=_("Grado de Instrucción"),
+        verbose_name=_("Estado Civil"),
         max_length=2,
         choices=constants.MARITAL_STATUS_CHOICES,
     )
@@ -77,10 +73,8 @@ class Filiation(models.Model):
     )
     phone = models.ManyToManyField(
         Phone,
-        null=True,
         blank=True,
         verbose_name=_("Números de telefono"),
-        on_delete=models.SET_NULL,
     )
 
     def __str__(self):

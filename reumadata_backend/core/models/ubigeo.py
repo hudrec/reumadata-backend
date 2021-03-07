@@ -1,18 +1,13 @@
 from django.db import models
 
 from django.utils.translation import ugettext_lazy as _
-
-NACIONALITY_CHOICES = (
-    ('P', 'Peru'),
-    ('E', 'Extranjero'),
-)
+from core import constants
 
 
 class State(models.Model):
     name = models.CharField(
         _("Departamento"),
         max_length=255,
-        blank=True,
     )
 
     def __str__(self):
@@ -23,7 +18,6 @@ class Province(models.Model):
     name = models.CharField(
         _("Provincia"),
         max_length=255,
-        blank=True,
     )
     state = models.ForeignKey(
         State,
@@ -39,7 +33,6 @@ class District(models.Model):
     name = models.CharField(
         _("Distrito"),
         max_length=255,
-        blank=True,
     )
     state = models.ForeignKey(
         State,
@@ -61,7 +54,7 @@ class Ubigeo(models.Model):
     country = models.CharField(
         _("Pais"),
         max_length=2,
-        choices=NACIONALITY_CHOICES,
+        choices=constants.NACIONALITY_CHOICES,
     )
     district =models.ForeignKey(
         District,

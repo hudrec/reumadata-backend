@@ -1,12 +1,8 @@
 from django.db import models
 
 from django.utils.translation import ugettext_lazy as _
+from core import constants
 # Create your models here.
-
-PHONE_TYPE_CHOICES = (
-    ('C', 'Celular'),
-    ('F', 'Fijo'),
-)
 
 
 class Phone(models.Model):
@@ -16,9 +12,9 @@ class Phone(models.Model):
         blank=True,
     )
     type = models.CharField(
-        verbose_name=_("Grado de Instrucción"),
+        verbose_name=_("Tipo de número telefónico"),
         max_length=2,
-        choices=PHONE_TYPE_CHOICES,
+        choices=constants.PHONE_TYPE_CHOICES,
     )
 
     def __str__(self):
