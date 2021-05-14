@@ -44,7 +44,9 @@ DJANGO_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
-
+    'oauth2_provider',
+    'rest_framework',
+    'corsheaders',
 ]
 
 LOCAL_APPS = [
@@ -56,6 +58,7 @@ INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -133,3 +136,21 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = str(root.path('static'))
+
+# ---------- DJANGO REST FRAMEWORK
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
+    ],
+}
+
+# ---------- END DJANGO REST FRAMEWORK
+
+OAUTH2_PROVIDER = {
+    'OAUTH2_BACKEND_CLASS': 'oauth2_provider.oauth2_backends.JSONOAuthLibCore',
+    'ACCESS_TOKEN_EXPIRE_SECONDS': 31536000,
+    'REFRESH_TOKEN_EXPIRE_SECONDS': 31536000
+}
+
+CORS_ORIGIN_ALLOW_ALL = True
