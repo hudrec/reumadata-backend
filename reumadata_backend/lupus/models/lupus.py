@@ -1,15 +1,13 @@
 from django.db import models
 from reumadata_backend.patient.models import Patient
-
-
-class AtencionLupus():
-    lupus = models.ForeignKey(Lupus)
-    fecha = models.DateTimeField
+from manifestacion_sistemica import ManifestacionSistemica
 
 
 class Lupus(models.Model):
-    patient = models.ForeignKey(Patient)
-    manifestaciones_sistemicas = models.ManyToManyField(ManifestacionesSistemicas)
+    patient = models.ForeignKey(
+        Patient
+    )
+    manifestaciones_sistemicas = models.ManyToManyField(ManifestacionSistemica)
     mucocutaneo = models.ManyToManyField(Mucocutaneo)
     musculoesqueletico = models.ManyToManyField(Musculoesqueletico)
     neuropsiquiatrico = models.ManyToManyField(Neuropsiquiatrico)
@@ -29,4 +27,9 @@ class Lupus(models.Model):
     indice_actividad = models.ManyToManyField(IndiceActividad)
     indice_danio = models.ManyToManyField(IndiceDanio)
     tratamiento = models.ManyToManyField(Tratamiento)
+
+
+class AtencionLupus(models.Model):
+    lupus = models.ForeignKey(Lupus)
+    fecha = models.DateTimeField
 
